@@ -139,6 +139,8 @@ main>section{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap:50px;
+    margin: 30px;
 }
 .resume-column-title{
     color:#474747;
@@ -149,4 +151,24 @@ main>section{
 }
 .btn-cv-download{
     align-items: center;
+}
+.resume-item-title{
+    color:#474747;
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-item-institute,.resume-item-description{
+
+    color:#757575;
+
+}
+.resume-item-institute{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
