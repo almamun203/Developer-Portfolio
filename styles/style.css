@@ -15,9 +15,11 @@ font-family: 'Roboto', sans-serif;
 
 }
 .section-description{
-    text-align: center;
+    text-align: justify;
     color:#757575;
-    font-size: 10px;
+    font-size: 20px;
+    margin: 0% ;
+
 }
 .btn-primary{
     border-radius: 5px;
@@ -77,6 +79,7 @@ nav a{
     background-image: url("../images/header_bg.png");
     background-repeat: no-repeat;
     background-position: bottom right;
+   
 }
 .banner{
     padding: 30px 30px 0px 150px;
@@ -85,12 +88,17 @@ nav a{
     justify-content: space-between;
 
 }
+.dev-text-img{
+    margin-bottom: 20px;
+    margin-left: 0;
+}
 .banner .profile-pic{
     width:500px;
 
 }
 .banner-content{
     max-width: 500px;
+    
 }
 main{
     max-width:1140px;
@@ -172,3 +180,27 @@ main>section{
     text-align: center;
     margin-top: 50px;
 }
+footer{
+    display: flex;
+    background-color: #FFF8F3;
+    padding:130px 300px;
+    margin-top: 100px;
+    justify-content: space-between;
+    gap:100px;
+    text-align: left;
+}
+.footer-column
+{
+    width: 50%;
+    text-align: left;
+    
+
+}
+footer>.footer-column>.section-title{
+    text-align:left; 
+}
+.footer-column>form>input{
+    margin-bottom: 10px;
+    
+}
+
